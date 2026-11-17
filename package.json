@@ -1,0 +1,16 @@
+{
+  "name": "github-forge-entry",
+  "version": "1.0.0",
+  "description": "GitHub-compatible forge for make.fun bounty github-core-clone-01",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsx main.ts",
+    "test": "node --test test/*.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": { "node": ">=22.0.0" }
+}
