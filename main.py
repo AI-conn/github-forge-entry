@@ -124,6 +124,7 @@ def build_tree_data(entries):
     return bytes(out)
 
 
+
 class Repo:
     def __init__(self, repo_id, owner, name, private, description):
         self.id = repo_id
@@ -461,6 +462,7 @@ def read_pack(data, repo):
 
 # --------------------------------------------------------------------------
 # Global store
+
 
 class Store:
     def __init__(self):
@@ -1028,6 +1030,7 @@ def handle_receive_pack(repo, body):
 
 # --------------------------------------------------------------------------
 # REST v3
+
 
 class HttpError(Exception):
     def __init__(self, status, message):
@@ -1699,6 +1702,7 @@ def rest_pull_files(owner, name, number):
 
 # --------------------------------------------------------------------------
 # GraphQL
+
 
 class GqlError(Exception):
     pass
